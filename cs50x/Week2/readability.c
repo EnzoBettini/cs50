@@ -1,4 +1,4 @@
-#include <ctype.h>
+/* #include <ctype.h>
 #include "cs50.h"
 #include <math.h>
 #include <stdio.h>
@@ -56,3 +56,4 @@ int main(void)
     getchar();
     return 0;
 }
+*/
