@@ -1,0 +1,12 @@
+.navbar{
+    list-style-type: none; /* remove bullet points */
+    display: flex; /* display items in a row */
+    flex-direction: row; /* display items in a row */
+    justify-content: flex-end; /* align items to the right */
+}
+
+.navitem{
+    margin: 10px;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Flexbox </title>
+        <style>
+            #container {
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+            #container > div {
+                background-color: green;
+                font-size: 12px;
+                margin: 10px;
+                padding: 20px;
+                width: 200px;
+            }
+            @media (max-width: 600px){
+                #container>div{background-color: rgb(68, 0, 255);}
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <div> 1. this is some text to show flexbox in action</div>
+            <div> 2. this is some text to show flexbox in action</div>
+            <div> 3. this is some text to show flexbox in action</div>
+            <div> 4. this is some text to show flexbox in action</div>
+            <div> 5. this is some text to show flexbox in action</div>
+            <div> 6. this is some text to show flexbox in action</div>
+            <div> 7. this is some text to show flexbox in action</div>
+            <div> 8. this is some text to show flexbox in action</div>
+            <div> 9. this is some text to show flexbox in action</div>
+            <div> 10. this is some text to show flexbox in action</div>
+            <div> 11. this is some text to show flexbox in action</div>
+            <div> 12. this is some text to show flexbox in action</div>
+        </div>
+    </body>
+        
+</html>

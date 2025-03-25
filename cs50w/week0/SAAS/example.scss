@@ -1,0 +1,32 @@
+div {
+    font-size: 14px;
+
+    p {
+        color: purple;
+    }
+
+    ul {
+        color: red;
+    }
+
+}
+
+/* only possible with SCSS */
+
+/* % -> defines a generic instance
+ex-> */
+
+%messages{
+	font-size: 18px;
+	font-weight: bold;
+} /* defines a generic instace called message*/
+
+.succes {
+	@extend %message; /* inherits the message structure */
+	background-color: green;
+}
+
+.failure {
+	@extend %message; /* inherits the message structure */
+	background-color: red;
+}
