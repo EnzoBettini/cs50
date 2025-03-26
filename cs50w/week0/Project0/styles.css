@@ -9,4 +9,105 @@
     margin: 10px;
 }
 
-/*# sourceMappingURL=styles.css.map */
+a{
+    text-decoration: none; /* remove underline */
+    color: black; 
+}
+
+.google-image{
+    display: flex; /* display items in a row */
+    justify-content: center; /* align items to the center */
+}
+
+.rounded-input{
+    display: flex; /* display items in a row */
+    z-index: 3;  /* make sure the input is on top of the image */;
+    height: 44px; /* set height */
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none; /* remove shadow */
+    border-radius: 24px; /* make the input rounded */
+    margin: 0 auto; /* center the input */
+    width: calc(632 + 6 px); /* set width */
+    width: 584px;
+    max-width: 584px; /* set max width */
+    margin-top: 30px;
+}
+
+.btn-google{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none; /* disable text selection */
+}
+
+.appbar {
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px 35px;
+}
+
+.line {
+    border-bottom: 1px solid #ebebeb;
+}
+
+.advanced-search{
+    font-size: 16px;
+    color: #333333;
+    margin: 50px;
+}
+
+.row-input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.left{
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+.form-control{
+    width: auto;
+    min-width: 385px;
+    flex-grow: 1;
+}
+
+.right{
+    width: 385px;
+    display: flex;
+    align-items: center;
+    max-height: 25px;
+}
+
+div>div>p{
+    font-size: 13px;
+    vertical-align: middle;
+}
+
+.btn-primary{
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    border-radius: 2px;
+    margin: 50px 0 0 50px;
+}
+
+.btn-adv{
+    height: 30px;
+    min-width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
