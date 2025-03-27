@@ -24,7 +24,7 @@
                     <p>all these words:</p>
                 </div>
                 <div class="right">
-                    <input type="text" name="q" class="form-control">
+                    <input type="text" name="as_q" class="form-control">
                 </div>
             </div>
             <div class="row-input">
@@ -32,7 +32,7 @@
                     <p>this exact word or phrase:</p>
                 </div>
                 <div class="right">
-                    <input type="text" name="q" class="form-control">
+                    <input type="text" name="as_epq" class="form-control">
                 </div>
             </div>
             <div class="row-input">
@@ -40,7 +40,7 @@
                     <p>any of these words:</p>
                 </div>
                 <div class="right">
-                    <input type="text" name="q" class="form-control">
+                    <input type="text" name="as_oq" class="form-control">
                 </div>
             </div>
             <div class="row-input">
@@ -48,10 +48,24 @@
                     <p>none of these words:</p>
                 </div>
                 <div class="right">
-                    <input type="text" name="q" class="form-control">
+                    <input type="text" name="as_eq" class="form-control">
                 </div>
             </div>
-            <button type="submit" class="btn btn-primary btn-adv">Advanced Search</button>
+            <div class="line"></div>
+            <div class="btn-div">
+                <button type="submit" class="btn btn-primary btn-adv">Advanced Search</button>
+            </div>
         </form>
     </body>
 </html>
+
+
+<!-- ========== 
+ 
+https://www.google.com.br/search?as_q=enzo&as_epq=ayres&as_oq=bettini&as_eq=maia&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs= 
+ 
+We can see that by this URL in a REAL google search as_q refers to enzo and as_epq refers to ayres, as_oq refers to bettini and as_eq refers to maia.
+
+That's how we know the names of the inputs in the form.
+
+========== -->

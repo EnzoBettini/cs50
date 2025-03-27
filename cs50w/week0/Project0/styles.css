@@ -3,6 +3,8 @@
     display: flex; /* display items in a row */
     flex-direction: row; /* display items in a row */
     justify-content: flex-end; /* align items to the right */
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 13px;
 }
 
 .navitem{
@@ -58,6 +60,7 @@ a{
 
 .line {
     border-bottom: 1px solid #ebebeb;
+    margin-top: 25px;
 }
 
 .advanced-search{
@@ -100,7 +103,7 @@ div>div>p{
     background-color: #4d90fe;
     border: 1px solid #3079ed;
     border-radius: 2px;
-    margin: 50px 0 0 50px;
+    margin-top: 30px;
 }
 
 .btn-adv{
@@ -109,5 +112,21 @@ div>div>p{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.btn-div{
+    display: flex;
+    justify-content: flex-end;
+    width: 635px;
+}
+
+.center-screen{
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+input::placeholder {
+    padding-left: 25px; /* Adjust this value to add space to the left of the placeholder */
 }
 
