@@ -1,0 +1,11 @@
+sort1 uses: bubble sort
+
+How do you know?: Has practically the same executing time as selection sort, but is faster to check a already sorted sequence
+
+sort2 uses: Merge sort
+
+How do you know?: Has the fastest sorting time
+
+sort3 uses: Selection sort
+
+How do you know?: Has the slowest time to sort a already sorted sequence
