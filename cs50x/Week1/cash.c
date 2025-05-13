@@ -9,9 +9,8 @@ int main(){
     {
         printf("Enter the amount of change in cents: ");
         scanf("%d", &cents);
-    } 
+    }
     while (cents<0);
-
     q=cents/25;
     cents=cents%25;
     d=cents/10;
