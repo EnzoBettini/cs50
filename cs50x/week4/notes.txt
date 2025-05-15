@@ -1,0 +1,2 @@
+pointers -> has the adress of a variable
+*p -> go to the value at addres stored at p
