@@ -1,2 +1,16 @@
 pointers -> has the adress of a variable
 *p -> go to the value at addres stored at p
+
+FILE *variable_name = fopen("name_file.txt", "mode");
+
+r - read
+w - write
+rb - read binary
+wb - write binary
+
+fread -> reads file data
+fwrite -> writes data into a file
+
+fread(buffer_storage, size_of_block, hoe_many_blocks, input) -> fread(buffer, 1, 4, input) - read 4 blocks of 1 byte
+
+fwrite(buffer_storage, size_of_block, hoe_many_blocks, input) -> fwrite(buffer, 1, 4, output) - writes 4 blocks of 1 byte
